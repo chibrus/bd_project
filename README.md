@@ -14,6 +14,5 @@ erDiagram
     PRODUCT ||--o{ PART_SUPP : "поставляется в"
 
     PRODUCT ||--o{ PRODUCT_VERSION : "имеет версии"
-    }
 
 ```
