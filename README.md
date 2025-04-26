@@ -3,8 +3,17 @@
 
 ```mermaid
 erDiagram
-    CUSTOMER ||--o{ ORDER : "оформляет"
+    REGION ||--o{ CLIENT : "размещается в"
+    REGION ||--o{ SUPPLIER : "зарегистрирован в"
+    
+    CLIENT ||--o{ ORDER : "оформляет"
     ORDER ||--o{ ORDER_ITEM : "содержит"
-    ORDER_ITEM }|--|| PRODUCT : "ссылается на"
-    ORDER ||--|| DELIVERY : "имеет"
+    ORDER_ITEM }o--|| PRODUCT : "указывает"
+    
+    SUPPLIER ||--o{ PART_SUPP : "поставляет"
+    PRODUCT ||--o{ PART_SUPP : "поставляется в"
+
+    PRODUCT ||--o{ PRODUCT_VERSION : "имеет версии"
+    }
+
 ```
