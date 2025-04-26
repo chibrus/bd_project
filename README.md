@@ -3,16 +3,15 @@
 
 ```mermaid
 erDiagram
-    REGION ||--o{ CLIENT : "размещается в"
-    REGION ||--o{ SUPPLIER : "зарегистрирован в"
-    
-    CLIENT ||--o{ ORDER : "оформляет"
-    ORDER ||--o{ ORDER_ITEM : "содержит"
-    ORDER_ITEM }o--|| PRODUCT : "указывает"
-    
-    SUPPLIER ||--o{ PART_SUPP : "поставляет"
-    PRODUCT ||--o{ PART_SUPP : "поставляется в"
+    REGION ||--o{ CLIENT : размещается
+    REGION ||--o{ SUPPLIER : зарегистрирован
 
-    PRODUCT ||--o{ PRODUCT_VERSION : "имеет версии"
+    CLIENT ||--o{ ORDER : оформляет
+    ORDER ||--o{ ORDER_ITEM : содержит
+    ORDER_ITEM }o--|| PRODUCT : указывает_на
 
+    SUPPLIER ||--o{ PART_SUPP : поставляет
+    PART_SUPP }o--|| PRODUCT : поставляется
+
+    PRODUCT ||--o{ PRODUCT_VERSION : имеет_версию
 ```
