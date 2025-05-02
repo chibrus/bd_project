@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Страница — 1" id="V7wd7PQZpXndN8c2buhK">
-    <mxGraphModel dx="3231" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2259" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2301,6 +2301,15 @@
               <mxPoint x="16" y="630" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JWoyaW1w0q21KYXfq-k9-809" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;" edge="1" parent="1" source="JWoyaW1w0q21KYXfq-k9-1" target="JWoyaW1w0q21KYXfq-k9-810">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="930" y="90" as="sourcePoint" />
+            <mxPoint x="930" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWoyaW1w0q21KYXfq-k9-810" value="Адрес" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="840" y="115" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
